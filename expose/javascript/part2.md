@@ -23,4 +23,9 @@
     G. '3undefined' since 3 and undefined are mapped to their string representation
     H. NaN since undefined is converted to NaN for numeric conversion
 14. A. true since string '2' becomes a number 2
-    B. false since 
+    B. false since '2' is greater than the '1', '2' is greater than '12'
+    C. true since string '2' becomes a number 2
+    D. false since === considers operands of different types to be different, 2 is of type number and '2' is of type string
+    E. false since true becomes 1 and 1 != 2
+    F. true since Boolean(2) becomes boolean true and both sides are boolean true.
+15. == attempts to convert and compare operands that are of different types but === considers operands of different types to be different.
