@@ -7,3 +7,5 @@
 7. It will return "150" because finalPrice is declared in the scope of the function so we can print it out. According to question 3, finalPrice = 150.
 8. It will return "[ 50, 100, 150 ]" because discounted and finalPrice are declared in the scope of the function so we would not cause any errors when using these variables. According to question 4, discounted = [50,100,150].
 9. It will return ReferenceError because i is declared in the scope of for loop so we cannot print i outside the for loop.
+10. It will print "3" because length equals to the length of array "prices".
+11. It will return "[ 50, 100, 150 ]" because in the first round of the for loop discountedPrice = 100*(1-0.5)=50. So 50 is pushed to array "discounted". In the second round, discountedPrice = 200*(1-0.5)=100. So 100 is pushed to array "discounted". In the last round, discountedPrice = 150 according to question 2, so 150 is pushed to array "discounted". Since each round of for loop it creates a new const called discountedPrice so it would not cause any errors.
