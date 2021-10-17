@@ -9,3 +9,8 @@
 9. It will return ReferenceError because i is declared in the scope of for loop so we cannot print i outside the for loop.
 10. It will print "3" because length equals to the length of array "prices".
 11. It will return "[ 50, 100, 150 ]" because in the first round of the for loop discountedPrice = 100*(1-0.5)=50. So 50 is pushed to array "discounted". In the second round, discountedPrice = 200*(1-0.5)=100. So 100 is pushed to array "discounted". In the last round, discountedPrice = 150 according to question 2, so 150 is pushed to array "discounted". Since each round of for loop it creates a new const called discountedPrice so it would not cause any errors.
+12. A. student.name
+    B. student['Grad Year']
+    C. student.greeting();
+    D. student['Favorite Teacher'].name
+    E. student.courseLoad[0]
