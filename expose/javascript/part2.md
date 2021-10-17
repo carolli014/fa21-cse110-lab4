@@ -14,3 +14,13 @@
     C. student.greeting();
     D. student['Favorite Teacher'].name
     E. student.courseLoad[0]
+13. A. ‘32’ since integers map to their exact string representation
+    B. 1 since string is mapped to its integer representation
+    C. 3 since null is converted to 0
+    D. '3null' since null is converted to string 'null'
+    E. 4 since true is converted to 1
+    F. 0 since both false and null are converted to 0
+    G. '3undefined' since 3 and undefined are mapped to their string representation
+    H. NaN since undefined is converted to NaN for numeric conversion
+14. A. true since string '2' becomes a number 2
+    B. false since 
