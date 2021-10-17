@@ -30,6 +30,4 @@
     F. true since Boolean(2) becomes boolean true and both sides are boolean true.
 15. == attempts to convert and compare operands that are of different types but === considers operands of different types to be different.
 17. The result will be "[ 2, 4, 6 ]". The for loop iterates through array and push each element which is multiplied by 2 using callback function to a new array. 
-15. == attempts to convert and compare operands that are of different types but === considers operands of different types to be different.7
-15. == attempts to convert and compare operands that are of different types but === considers operands of different types to be different..
-15. == attempts to convert and compare operands that are of different types but === considers operands of different types to be different.
+
