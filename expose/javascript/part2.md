@@ -29,5 +29,5 @@
     E. false since true becomes 1 and 1 != 2
     F. true since Boolean(2) becomes boolean true and both sides are boolean true.
 15. == attempts to convert and compare operands that are of different types but === considers operands of different types to be different.
-17. The result will be "[ 2, 4, 6 ]". The for loop iterates through array and push each element which is multiplied by 2 using callback function to a new array. 
-19. The output is 1 4 3 2. Line 2 and line 5 don't call setTimeout function so they get printed first. Then line 4 executes before line 3 because 0 millisecond is shorter than 1000 milliseconds.
+17 . The result will be "[ 2, 4, 6 ]". The for loop iterates through array and push each element which is multiplied by 2 using callback function to a new array. 
+19 . The output is 1 4 3 2. Line 2 and line 5 don't call setTimeout function so they get printed first. Then line 4 executes before line 3 because 0 millisecond is shorter than 1000 milliseconds.
